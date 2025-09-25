@@ -98,7 +98,7 @@ let
     python3
     pythonEnv
     (texlive.combine { inherit (texlive) scheme-medium multirow lipsum catchfile nowidow enumitem placeins xltabular ltablex titlesec makecell datetime fmtcount comment textpos csquotes amsmath cancel listings hyperref biblatex pmboxdraw varwidth hanging adjustbox stackengine alphalph; })
-    (callPackage ./scripts/riscv-gnu-toolchain.nix { })
+    # (callPackage ./scripts/riscv-gnu-toolchain.nix { })
     verible
     black
     llvmPackages_14.clangUseLLVM
